@@ -975,8 +975,8 @@ html, body{
 
     .search-input{
         position: relative;
-        top: 100px;
-        left: -27%;
+        top: 0px;
+        left: -18%;
         width: 80vw;
     }
 
