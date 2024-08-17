@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Changa+One:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+TC:wght@200..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Anton+SC&family=Bebas+Neue&family=Changa+One:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+TC:wght@200..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Anton+SC&family=Bebas+Neue&family=Changa+One:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+TC:wght@200..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f4efa66e1d.js" crossorigin="anonymous"></script>
+    <title>Sun's Noodles</title>
+</head>
+<body>
+    <div class="main-page">
+        <img src="Lo Mein Noodles.jpg" class="photo" alt="Photo 1">
+        <img src="Up by cloudy.jpg" class="photo" alt="Photo 2">
+        <img src="Mì Cay Seoul - Luna New Year Project.jpg" class="photo" alt="Photo 3">
+        <img src="Asian market Kalamazoo | United States | Pacific Rim Foods.jpg" class="photo" alt="Photo 4">
+        <img src="List of must-try Beijing Chinese food.jpg" class="photo" alt="Photo 3">
+        <div class="imaginary-header" id="hamburger-icon" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars fa-2x"></i>
+        </div>
+
+        <div class="sliding-menu" id="slidingMenu">
+            <button class="close-btn" onclick="toggleMenu()"><i class="fa-solid fa-x fa-2x"></i></button>
+            <img class="two-lantern" src="Two-laterns.png" alt="">
+            <ul>
+                <li><a style="color: white; text-decoration: none;" href="page_2.html">Order Now</a></li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+
+        <div class="text-header">
+            <p class="main-text-header">太陽的麵條</p>
+        </div>
+
+        <div class="sub-text-header">
+            <span style="margin-top: 30px;"><a style="color: white; text-decoration: none; cursor: pointer;" href="page_4.html">Sun's Bundles</a></span>
+            <span style="margin-top: 40px;"><a style="color: white; text-decoration: none; cursor: pointer;" href="page_5.html">Bowl</a></span>
+            <span style="margin-top: 40px;"><a style="color: white; text-decoration: none; cursor: pointer;" href="page_6.html">Plate</a></span>
+            <span style="margin-top: 40px;"><a style="color: white; text-decoration: none; cursor: pointer;" href="page_10.html">A LA CARTE</a></span>
+            <span style="margin-top: 40px;"><a style="color: white; text-decoration: none; cursor: pointer;" href="page_11.html">Drinks</a></span>
+        </div>
+
+        <div class="search-header">
+            <input type="text" class="search-input" placeholder="Search for Food">
+        </div>
+        <div class="search-results"></div>
+
+        <!-- <div class="year">2 0 2 4</div> -->
+        
+
+
+    </div>
+
+    <div class="secondary-page">
+        <div class="first-half">
+            <!-- <img src="vogue.png" alt=""> -->
+        </div>
+        <div class="second-half">
+            <div class="second-shade"></div>
+            <img class="second-half-photo" src="pattern.jpg" alt="">
+            <div class="second-half-title">OUR MEALS</div>
+            <div class="second-half-message">Discover our delicious meals crafted with care. </div>
+            <button class="second-half-order"><a style="text-decoration: none; color: white; cursor: pointer;" href="page_2.html">View Menu</a></button>
+        </div>
+
+    </div>
+
+    <!-- <div class="second-block">
+        <div class="grid-container">
+            <div class="card-container">
+                <div class="card">
+                    <h3 class="t">Title 1</h3>
+                    <p class="t">Description 1</p>
+                </div>
+                <div class="card">
+                    <h3 class="t">Title 2</h3>
+                    <p class="t">Description 2</p>
+                </div>
+                <div class="card">
+                    <h3 class="t"></h3>
+                    <p class="t"></p>
+                </div>
+                <div class="card">
+                    <h3 class="t"></h3>
+                    <p class="t"></p>
+                </div>
+
+                <div class="card">
+                    <h3 class="t"></h3>
+                    <p class="t"></p>
+                </div>
+
+                <div class="card">
+                    <h3 class="t"></h3>
+                    <p class="t"></p>
+                </div>
+
+                <div class="card">
+                    <h3 class="t"></h3>
+                    <p class="t"></p>
+                </div>
+
+
+            </div>
+        </div>
+    
+    </div> -->
+    
+    <!-- <div class="center-second-block">
+        <div class="big-text">Sun's Food</div>
+        <div class="description">
+            Quas alias consectetur quod neque nemo at earum ab veritatis laboriosam reprehenderit hic quisquam! Dolorem.
+        </div>
+        <button class="order-button">Order</button>
+    </div> -->
+    <div class="two-picture">
+        <div class="about-us">
+            <img src="" alt="">
+            <img class="two-photo" src="newyear.jpg" alt="">
+            <h1>Sun's Story</h1>
+            <p>Come and discover more about our rich history and the values that guide us</p>
+            <button>Learn More</button>
+        </div>
+
+        <div class="Contact-us">
+            <img src="" alt="">
+            <img class="two-photo" src="child-ice.jpg" alt="">
+            <h1>Reach Out</h1>
+            <p style="max-width: 500px; text-align: center;">Have questions or need assistance? Connect with us to learn how we can help. We're here to support you—get in touch to find out more.</p>
+            <button>Contact Us</button>
+        </div>
+    </div> 
+
+    <div class="footer">
+        <h1>Find More Resources</h1>
+        <p style="margin-top: 80px;">Contact Me</p>
+        <p><a  class="right" href="mailto:znansah@wm.edu">Email Me</a></p>
+
+        <a href="discordapp.com/users/824044512564215819"><i class="fa-brands fa-discord"></i></a>
+        <a href="https://www.instagram.com/uncle_ansah/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/zephaniah-ansah-78b62b27a/"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/Zansah"><i class="fa-brands fa-github"></i></a>
+
+        <!-- <img src="Food_-_Pete_Oakley_Photography-removebg-preview.png" alt=""> -->
+
+    </div>
+   
+    
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
