@@ -976,7 +976,7 @@ html, body{
     .search-input{
         position: relative;
         top: 0px;
-        left: -50%;
+        left: -40%;
         width: 80vw;
     }
 
